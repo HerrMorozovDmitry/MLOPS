@@ -1,6 +1,7 @@
 # Домашнее задание 2
 * Задание выполнялось на основе классического датасета Titanic (https://www.kaggle.com/competitions/titanic/data?select=train.csv).
 * Был реализован вариант на REST API с использованием Swagger. Соответственно, все тестировал через браузер по http://127.0.0.1:5000/.
+* Ссылка на DockerHub: https://hub.docker.com/r/demonveen/hw2
 * В **environment.yml** указано используемое окружение. Чтобы его развернуть, можно воспользоваться командой `conda env create -f environment.yml`.
 * Сервис запускается просто через `python main.py`.
 * Из реализованных методов:
