@@ -1,0 +1,10 @@
+name: mlops_hw2
+channels:
+  - defaults
+dependencies:
+  - flask
+  - flask-restx
+  - scikit-learn
+  - pandas
+  - pytest
+prefix: /opt/anaconda3/envs/mlops_hw2
