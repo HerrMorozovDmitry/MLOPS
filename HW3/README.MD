@@ -4,7 +4,7 @@
 * Ссылка на DockerHub: https://hub.docker.com/r/demonveen/hw2
 * В **environment.yml** указано используемое окружение. Чтобы его развернуть, можно воспользоваться командой `conda env create -f environment.yml`.
 * Сервис запускается просто через `python main.py`.
-* В файле `test_models.py` содержаться Unit-тесты для класса Model, реализованных через pytest. Запуск через `pytest -v test_models.py`.
+* В файле `test_models.py` содержатся Unit-тесты для класса Model, реализованных через pytest. Запуск через `pytest -v test_models.py`.
 * Из реализованных методов:
   * get /models/types — выводит все поддерживаемые типы моделей.
   * get /models/list — выводит все определенные модели.
